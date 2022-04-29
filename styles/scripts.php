@@ -21,6 +21,8 @@
 <script src="assets/libs/quill/dist/quill.min.js"></script>
 <script src="assets/libs/select2/dist/js/select2.full.min.js"></script>
 <script src="assets/libs/select2/dist/js/select2.min.js"></script>
+<script src="assets/libs/jquery-steps/build/jquery.steps.min.js"></script>
+<script src="assets/libs/jquery-validation/dist/jquery.validate.min.js"></script>
 <script>
     jQuery('.mydatepicker').datepicker();
     jQuery('#datepicker-autoclose').datepicker({
@@ -32,4 +34,30 @@
         theme: 'snow'
     });
     $('#zero_config').DataTable();
+    var form = $("#example-form");
+    form.validate({
+        errorPlacement: function errorPlacement(error, element) { element.before(error); },
+        rules: {
+            confirm: {
+                equalTo: "#password"
+            }
+        }
+    });
+    form.children("div").steps({
+        headerTag: "h3",
+        bodyTag: "section",
+        transitionEffect: "slideLeft",
+        onStepChanging: function (event, currentIndex, newIndex) {
+            form.validate().settings.ignore = ":disabled,:hidden";
+            return form.valid();
+        },
+        onFinishing: function (event, currentIndex) {
+            form.validate().settings.ignore = ":disabled";
+            return form.valid();
+        },
+        onFinished: function (event, currentIndex) {
+            alert("Submitted!");
+        }
+    });
+
 </script>

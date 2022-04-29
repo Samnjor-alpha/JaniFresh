@@ -28,13 +28,13 @@
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a href="crops" class="sidebar-link">
+                        <a href="farms.php" class="sidebar-link">
                             <i class="fas fa-map-marked-alt"></i>
                             <span class="hide-menu">Farms</span>
                         </a>
                     </li>
                     <li class="sidebar-item">
-                        <a href="crops" class="sidebar-link">
+                        <a href="production.php" class="sidebar-link">
                             <i class="fas fa-industry"></i>
                             <span class="hide-menu">Production</span>
                         </a>
