@@ -49,7 +49,7 @@
                 </a>
                 <ul aria-expanded="false" class="collapse  first-level">
                     <li class="sidebar-item">
-                        <a href="addfarmer.php" class="sidebar-link">
+                        <a href="receiving.php" class="sidebar-link">
                             <i class="fas fa-dolly"></i>
                             <span class="hide-menu">Receiving</span>
                         </a>
