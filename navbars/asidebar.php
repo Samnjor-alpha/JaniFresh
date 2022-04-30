@@ -76,9 +76,9 @@
                 </a>
                 <ul aria-expanded="false" class="collapse  first-level">
                     <li class="sidebar-item">
-                        <a href="addfarmer.php" class="sidebar-link">
+                        <a href="customers.php" class="sidebar-link">
                             <i class="fas fa-user-tie"></i>
-                            <span class="hide-menu">Customers</span>
+                            <span class="hide-menu">Customers & Vendors</span>
                         </a>
                     </li>
 
@@ -92,18 +92,12 @@
                 </a>
                 <ul aria-expanded="false" class="collapse  first-level">
                         <li class="sidebar-item">
-                        <a href="managefarmers" class="sidebar-link">
+                        <a href="purchases.php" class="sidebar-link">
                             <i class="fas fa-file-invoice"></i>
                             <span class="hide-menu">Purchases</span>
                         </a>
                     </li>
-                    <li class="sidebar-item">
-                        <a href="managefarmers" class="sidebar-link">
 
-                            <i class="fas fa-user-tag"></i>
-                            <span class="hide-menu">Suppliers</span>
-                        </a>
-                    </li>
                 </ul>
             </li>
             <li class="sidebar-item">
