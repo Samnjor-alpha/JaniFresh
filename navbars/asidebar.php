@@ -60,6 +60,12 @@
                             <span class="hide-menu"> Raw Material</span>
                         </a>
                     </li>
+                    <li class="sidebar-item">
+                        <a href="processing.php" class="sidebar-link">
+                            <i class="fas fa-mortar-pestle"></i>
+                            <span class="hide-menu">Processing</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
 
